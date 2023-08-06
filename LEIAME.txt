@@ -1,0 +1,9 @@
+Projetos de Minha Infância
+
+
+Projetos com cujos quais eu comecei a me auto-ensinar desenvolvimento
+de software de forma intuitiva. Primeiro usando a funcionalidade de
+"Forms" no MS Access 97, 2000 e finalmente usando uma cópia registrada
+do VB que o meu primo de 2o grau Anísio Júnior me instalou pra mim,
+lembro de ser um dos primeiros momentos de sincera epifania que senti
+ao vislumbrar a possibilidade de criar um mundo de programas.
