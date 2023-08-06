@@ -1,0 +1,6 @@
+Form1 = -45, 70, 511, 430, , -260, 33, 492, 576, C
+Module1 = 110, 110, 458, 456, C
+CBMPRegion = 154, 154, 734, 524, C
+modSocketMaster = 0, 0, 0, 0, C
+Winsock = 0, 0, 0, 0, C, 0, 0, 416, 259, C
+CSocketMaster = 88, 88, 504, 347, C

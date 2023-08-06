@@ -1,0 +1,56 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\System32\stdole2.tlb#OLE Automation
+Reference=*\G{420B2830-E718-11CF-893D-00A0C9054228}#1.0#0#C:\WINDOWS\System32\scrrun.dll#Microsoft Scripting Runtime
+Reference=*\G{60254CA0-953B-11CF-8C96-00AA00B8708C}#5.1#0#C:\WINDOWS\System32\wscript.exe#Windows Script Host (Ver 5.1)
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCTL.OCX
+Object={F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0; COMDLG32.OCX
+Class=ZipFileEntry; ZipFileEntry.cls
+UserControl=Zipit.ctl
+Module=BrowseForFolder; BrowseForFolder.bas
+Class=SHFileOPClass; SHFileOPClass.cls
+Class=CAssociate; cAssociate.cls
+Form=C:\Arquivos de programas\Microsoft Visual Studio\VB98\GABS SFX\frmMain.frm
+ResFile32="ZipDir.RES"
+Startup="Form2"
+HelpFile=""
+Title="TeraZip - Compactador/Descompactador"
+ExeName32="SFX.exe"
+Path32="C:\"
+Command32=""
+Name="ZipDir"
+HelpContextID="0"
+Description="TeraZip - Compactador e Descompactador"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=25
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionComments="Programa de compactação/descompactação, desenvolvido por Gabriel Falcão"
+VersionCompanyName="Gabriel Falcão"
+VersionFileDescription="Compacta/Descompacta arquivos"
+VersionLegalCopyright="Copyright© Gabriel Falcão - Todos os Direitos Reservados"
+VersionLegalTrademarks="por Gabriel Falcão"
+VersionProductName="TeraZip"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+DeleteClass1=Form1
+DeleteClass2=FrmAbout

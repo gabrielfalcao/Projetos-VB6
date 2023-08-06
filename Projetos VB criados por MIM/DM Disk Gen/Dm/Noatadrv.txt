@@ -1,0 +1,94 @@
+DiscWizard has not detected an ATA drive on your system.  Several 
+reasons can cause DiscWizard to make this conclusion.
+No ATA drives, continue with this procedure at the next step.
+A device driver hooking Interrupt 13 and not reporting back ATA
+information.  If the device driver (i.e. disk cache) is loaded 
+under windows, uninstall it.  If a message is displayed while 
+running DiscWizard stating, Dynamic Drive Overlay DDO
+will be loaded DO NOT reinstall the removed device driver.  
+
+If you have a SCSI hard drive as your boot drive, DiscWizard cannot
+be used to install the new ATA drive. You must follow the procedure
+outlined below: (For Windows 3.1x only, this procedure cannot be
+used for Windows 95. For Windows 95 users, please see the section
+"For Windows 95 Users".)
+
+NOTE: Once you add an ATA hard drive to your system, the SCSI drive
+will no longer be the boot device. Therefore, you will need to copy
+all the files from your SCSI drive to the new ATA drive to be able
+to boot and run your system.
+
+- Create a DOS system bootable diskette. (Place blank diskette
+  in your A: drive and type "format a: /s" from the C: prompt, or 
+  "sys a:" if the diskette is formatted but has no files on it.)
+
+- From the DOS C: prompt, type "cd\discwzrd" and [ENTER]. If you
+  chose a different name for the DiscWizard directory, type the
+  appropriate directory name.
+
+- Type "copy filecopy.exe a:" to copy the file to the diskette you
+  just created.
+
+- Install the new ATA hard drive with jumpers set for a single drive. 
+  See the jumper information listed on the Seagate hard drive. 
+
+- Re-boot the system with the boot diskette you just created in the
+  A: drive.
+
+- Insert the DiscWizard diskette in your A: drive, (or B:, as needed)
+  and run Disk Manager by typing "dm" at the A: (or B:) prompt. 
+
+- Select "Easy" or "Advanced Install" as you wish.
+
+- Once the Disk Manager program has installed the new hard drive,
+  you will need to copy the files from your existing SCSI drive to
+  the new ATA drive.
+
+- Insert the boot diskette you created into the A: drive.
+
+- Type "filecopy".
+
+- When asked for the source drive, press "D" and [ENTER].
+
+- When asked for the destination drive, Press "C" and [ENTER].
+
+- Press [ENTER] to begin copying all the files to the new drive.
+
+- Once the filecopy has completed successfully, remove the diskette
+  from the A: drive and re-boot the system. 
+
+- At this point the installation is complete, and the system will 
+  boot normally from the new Seagate ATA hard drive. 
+
+*FOR WINDOWS 95 USERS*
+
+Due to the fact that most BIOSes will assign drive numbers to 
+ATA hard drives before SCSI hard drives the following scenario
+may occur:
+
+- A SCSI drive is in the system as the "boot drive".
+
+- An ATA drive is added to the system.
+
+- The BIOS now makes the ATA drive the "boot drive".
+
+- Booting from the SCSI drive is now not an option.
+
+Trying to copy files from the SCSI drive to the new ATA drive from
+DOS should not be attempted because DOS does not understand long
+file names.
+
+The following solutions are the only options that will take care of
+this problem:
+
+1) Intelligent ATA host adapter with on board BIOS that does not
+use a CMOS drive type can set the ROM memory address
+higher than the SCSI adapter address.
+2) System BIOS that has a multi-boot option or the ability
+to set the boot order may be able to keep the SCSI drive as the
+boot drive.
+
+Either of these options allow the user to boot to their current
+operating system on the SCSI drive. This will allow the user
+to use "FDISK" and "FORMAT" to install their new ATA drive.
+

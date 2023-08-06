@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=Instalação PowerOff
+
+
+[Package|Instalação PowerOff|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Instalação PowerOff
+
+[Package|Instalação PowerOff|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Instalação PowerOff|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Instalação PowerOff|Files Found]
+
+[Package|Instalação PowerOff|Files Released]
+
+[Package|Instalação PowerOff|Missing Dependency Information]
+
+[Package|Instalação PowerOff|Out-of-Date Dependency Information]
+
+[Package|Instalação PowerOff|Files Added]
+
+[Package|Instalação PowerOff|Files Removed]
+
+[Package|Instalação PowerOff|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Gabriel Falcão\Desktop\PowerOff XP.exe=Yes
+
+[Package|Instalação PowerOff|Configure Registry Files]
+Applicable=No
+
+[Package|Instalação PowerOff|Configure Remote Servers]
+Applicable=No
+
+[Package|Instalação PowerOff|Install Locations]
+C:\Documents and Settings\Gabriel Falcão\Desktop\Desligator.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Gabriel Falcão\Desktop\PowerOff XP.exe=$(AppPath)
+
+[Package|Instalação PowerOff|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Gabriel Falcão\Desktop\Desligator.exe=No
+C:\Documents and Settings\Gabriel Falcão\Desktop\PowerOff XP.exe=No
+
+[Package|Instalação PowerOff|Distribution]
+Type=single
+Size=
+Title=Power Off XP
+
+[Package|Instalação PowerOff|IconGroups]
+Group0=Power Off XP
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Instalação PowerOff|Power Off XP]
+Icon1=Desligator.exe
+Title1=Power Off XP
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Instalação PowerOff|Package]
+PackageFolder=c:\Instalação PowerOff
+ProjectFolder=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\desligar xp
+ServerSideCab=
+File1=c:\Instalação PowerOff\setup.exe
+File2=c:\Instalação PowerOff\Setup.Lst
+File3=c:\Instalação PowerOff\PowerOff XP.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

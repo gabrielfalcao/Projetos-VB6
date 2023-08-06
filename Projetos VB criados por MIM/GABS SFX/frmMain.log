@@ -1,0 +1,8 @@
+Line 77: Class ZipDir.Zipit of control Zipit1 was not a loaded control class.
+Line 80: The property name _ExtentX in Zipit1 is invalid.
+Line 81: The property name _ExtentY in Zipit1 is invalid.
+Line 82: The property name ExtractDir in Zipit1 is invalid.
+Line 83: The property name UseDirectoryInfo in Zipit1 is invalid.
+Line 84: The property name Overwrite in Zipit1 is invalid.
+Line 85: The property name ExtrAction in Zipit1 is invalid.
+Line 86: The property name IncludeSystemFiles in Zipit1 is invalid.

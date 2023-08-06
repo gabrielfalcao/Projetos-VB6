@@ -1,0 +1,26 @@
+ÿ”">
+    <input type="hidden" name="redirect2" 
+value="http://www.hpg.com.br/users/poolthx.htm">
+    <b><font size="1" face="Tahoma">Nome:</font></b> 
+    <input name="nome:" >
+    <br>
+    <b><font size="1" face="Tahoma">E-Mail:</font></b> 
+    <input name="e-mail:" >
+    <br>
+    <b><font size="1" face="Tahoma">Cidade:</font></b> 
+    <input name="cidade:" >
+    <br>
+    <b><font size="1" face="Tahoma">Assunto:</font></b> 
+    <input name="comentários" >
+    <br>
+    <b><font size="1" face="Tahoma">Mensagem:</font></b> 
+    <input name="mensagem:" >
+    <br>
+    <input type="submit" value="Enviar" name="submit">
+    <br>
+  </form>
+8">
+    <input type="hidden" name="subject2" 
+value="
+…<form action="http://www.hpg.com.br/scripts/cgi-bin/FormMail.pl" method="post">
+    <input type="hidden" name="recipient2" value="

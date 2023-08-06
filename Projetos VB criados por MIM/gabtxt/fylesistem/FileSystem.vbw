@@ -1,0 +1,6 @@
+ModLine = 44, 44, 370, 314, C
+frmFileSystem = 88, 88, 306, 358, C, 66, 66, 284, 336, C
+ModProperties = 0, 0, 324, 270, C
+ModDrives = 22, 22, 346, 292, Z
+ModFileFolders = 44, 44, 368, 314, C
+frmProperties = 0, 0, 0, 0, C, 88, 88, 306, 358, C

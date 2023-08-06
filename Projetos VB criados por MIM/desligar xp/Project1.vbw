@@ -1,0 +1,5 @@
+frmDesligator = 100, 25, 633, 381, , 22, 22, 555, 378, C
+modTray = 133, 133, 678, 493, C
+CCaptionlessWindowMover = 66, 66, 613, 419, C
+Module1 = 66, 66, 613, 419, 
+isButton = 0, 0, 0, 0, C, 88, 116, 694, 486, C

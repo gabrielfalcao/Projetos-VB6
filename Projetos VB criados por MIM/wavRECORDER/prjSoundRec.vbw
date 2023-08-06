@@ -1,0 +1,6 @@
+basSoundRec_1 = 132, 132, 490, 444, C
+basSoundRec_2 = 154, 154, 512, 466, C
+frmSoundRec = 130, 153, 697, 491, Z, 22, 22, 494, 360, C
+basSoundRec_3 = 0, 0, 358, 312, C
+CBMPRegion = 0, 0, 0, 0, C
+CCaptionlessWindowMover = 0, 0, 0, 0, C

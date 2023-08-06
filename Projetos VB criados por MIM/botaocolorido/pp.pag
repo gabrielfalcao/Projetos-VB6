@@ -1,0 +1,97 @@
+VERSION 5.00
+Begin VB.PropertyPage pp 
+   Caption         =   "Sobre o Botão Colorido"
+   ClientHeight    =   1890
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   4575
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   1890
+   ScaleWidth      =   4575
+   Begin VB.Label Label4 
+      AutoSize        =   -1  'True
+      Caption         =   "www.gsite2003.kit.net"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   13.5
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   360
+      Left            =   510
+      TabIndex        =   3
+      Top             =   1245
+      Width           =   3015
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      Caption         =   "Programador:"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   195
+      Left            =   285
+      TabIndex        =   2
+      Top             =   570
+      Width           =   1140
+   End
+   Begin VB.Label Label2 
+      AutoSize        =   -1  'True
+      Caption         =   "Gabriel Falcão"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   13.5
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   360
+      Left            =   1545
+      TabIndex        =   1
+      Top             =   480
+      Width           =   2055
+   End
+   Begin VB.Label Label3 
+      AutoSize        =   -1  'True
+      Caption         =   "gabrielfalcao@hotmail.com"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   13.5
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   360
+      Left            =   210
+      TabIndex        =   0
+      Top             =   885
+      Width           =   3795
+   End
+   Begin VB.Image Image1 
+      BorderStyle     =   1  'Fixed Single
+      Height          =   600
+      Left            =   3765
+      Picture         =   "pp.pgx":0000
+      Stretch         =   -1  'True
+      Top             =   240
+      Width           =   600
+   End
+End
+Attribute VB_Name = "pp"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True

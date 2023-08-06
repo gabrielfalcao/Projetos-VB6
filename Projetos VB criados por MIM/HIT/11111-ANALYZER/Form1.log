@@ -1,0 +1,4 @@
+Line 64: Class xTracty.ScrollView of control ScrollView1 was not a loaded control class.
+Line 70: The property name _ExtentX in ScrollView1 is invalid.
+Line 71: The property name _ExtentY in ScrollView1 is invalid.
+Line 74: The property name View in ScrollView1 is invalid.

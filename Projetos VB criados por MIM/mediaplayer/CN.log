@@ -1,0 +1,8 @@
+Line 18: Class MSComctlLib.Slider of control Slider1 was not a loaded control class.
+Line 24: The property name _ExtentX in Slider1 is invalid.
+Line 25: The property name _ExtentY in Slider1 is invalid.
+Line 26: The property name _Version in Slider1 is invalid.
+Line 28: The property name Min in Slider1 is invalid.
+Line 29: The property name Max in Slider1 is invalid.
+Line 30: The property name SelStart in Slider1 is invalid.
+Line 31: The property name Value in Slider1 is invalid.

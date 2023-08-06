@@ -1,0 +1,5 @@
+frmMSG = 110, 110, 657, 465, C, 88, 88, 635, 443, C
+frmSplash = 132, 132, 712, 503, , 66, 66, 646, 437, C
+CBMPRegion = 88, 88, 668, 459, C
+CCaptionlessWindowMover = 110, 110, 690, 481, C
+frmChatCliente = 66, 66, 646, 437, Z, 22, 22, 602, 393, C

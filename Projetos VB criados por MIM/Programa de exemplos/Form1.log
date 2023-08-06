@@ -1,0 +1,21 @@
+Line 19: Class MSWinsockLib.Winsock of control w3 was not a loaded control class.
+Line 27: Class MSWinsockLib.Winsock of control w2 was not a loaded control class.
+Line 35: Class MSWinsockLib.Winsock of control ww was not a loaded control class.
+Line 51: Class MSWinsockLib.Winsock of control w1 was not a loaded control class.
+Line 10: Property Icon in form1 had an invalid file reference.
+Line 22: The property name _ExtentX in w3 is invalid.
+Line 23: The property name _ExtentY in w3 is invalid.
+Line 24: The property name _Version in w3 is invalid.
+Line 25: The property name LocalPort in w3 is invalid.
+Line 30: The property name _ExtentX in w2 is invalid.
+Line 31: The property name _ExtentY in w2 is invalid.
+Line 32: The property name _Version in w2 is invalid.
+Line 33: The property name LocalPort in w2 is invalid.
+Line 38: The property name _ExtentX in ww is invalid.
+Line 39: The property name _ExtentY in ww is invalid.
+Line 40: The property name _Version in ww is invalid.
+Line 41: The property name LocalPort in ww is invalid.
+Line 54: The property name _ExtentX in w1 is invalid.
+Line 55: The property name _ExtentY in w1 is invalid.
+Line 56: The property name _Version in w1 is invalid.
+Line 57: The property name LocalPort in w1 is invalid.

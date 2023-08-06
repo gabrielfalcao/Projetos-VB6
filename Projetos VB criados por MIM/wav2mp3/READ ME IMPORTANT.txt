@@ -1,0 +1,1 @@
+If you want to auto-convert in mp3 you must decompress the lame_enc.zip

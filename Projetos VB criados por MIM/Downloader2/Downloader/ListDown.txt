@@ -1,0 +1,7 @@
+"Caminho";"Nome";"Descricao"
+"http://gabrielfalcaogm.vila.bol.com.br/InstalarTeraZip.exe";"Terazip";"Compactador/Descompactador de arquivos, similar aos programas mais comuns de compactacao/descompactacao, porem e totalmete gratuito. Licença: FREEWARE"
+"http://www.megaaccesshp.hpg.com.br/neoweb.exe";"NEOWEB";"Navegador de internet que usa como base o activeX do internet explorer. Licença: FREEWARE"
+"http://www.megaaccesshp.hpg.com.br/Instalar%20Trava%20Tudo.exe";"Trava Tudo 1.00";"Sistema de bloqueio do computador com senha, desenhado para plataformas Windows 9x esse programa vai manter os invasores longe do seu PC. Licença: FREEWARE"
+"http://www.megaaccesshp.hpg.com.br/Vbrun60.exe";"VB Run 6.0";"Pacote de DLLs necessárias para rodar programas criados em Visual Basic 6.0. Licença: FREEWARE"
+"http://www.megaaccesshp.hpg.ig.com.br/poweroff.zip";"Power Off XP";"Programa para o desligamento automático do computador. Licença: FREEWARE"
+"http://www.megaaccesshp.hpg.ig.com.br/Instalar%20OS.exe";"Ordem de Serviço 1.00";"Programa para impressão de Ordens de Serviço. Licença: FREEWARE"

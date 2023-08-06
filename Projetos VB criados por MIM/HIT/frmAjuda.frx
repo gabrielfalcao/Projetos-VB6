@@ -1,0 +1,14 @@
+ÿÆVocê pode executar o H1T com atalhos através de: Menu Iniciar> Executar
+diite o caminho do H1t
+Exemplo:
+C:\hit.exe
+e depois o comando selecionado de atalho
+veja:
+C:\hit.exe -enabler
+
+Atalhos:
+-enabler - Abre somente a janela do Super Habilitador
+-invader - Abre somente a janela de TelNet
+-cript   - Abre o Encriptador/Decriptador
+-crack   - Abre o visualizador que revela o que há debaixo dos "***"
+-res     - Abre o extrator de resources

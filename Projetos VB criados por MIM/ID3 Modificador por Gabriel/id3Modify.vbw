@@ -1,0 +1,11 @@
+frmMain = 132, 132, 690, 487, C, -46, 30, 512, 385, C
+frmAbout = 66, 181, 501, 536, C, -21, 25, 537, 380, C
+modShellExec = 44, 44, 591, 399, C
+clsDialog = 132, 132, 679, 487, C
+clsSystrayIcon = 154, 154, 701, 509, C
+modBrowseFolder = 176, 176, 723, 531, C
+modFAssociation = 0, 0, 547, 355, C
+modIni = 22, 22, 569, 377, C
+modMp3playa = 44, 44, 591, 399, C
+ModMultimedia = 66, 66, 613, 421, C
+clsID3v1Tag = 132, 174, 756, 540, C

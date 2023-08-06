@@ -1,0 +1,4 @@
+Line 14: Class ComctlLib.Toolbar of control BarraDeFerramentas was not a loaded control class.
+Line 166: Class MSComDlg.CommonDialog of control cmmArquivo was not a loaded control class.
+Line 178: Class ComctlLib.StatusBar of control BarraDeStatus was not a loaded control class.
+Line 221: Class ComctlLib.ImageList of control Ícones was not a loaded control class.

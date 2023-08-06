@@ -1,0 +1,7 @@
+modUUFind = 0, 0, 0, 0, C
+UUFind = 66, 87, 687, 453, C
+UUFindItem = 0, 0, 0, 0, C
+UUFindList = 0, 0, 0, 0, C
+modShellExec = 0, 0, 0, 0, C
+modCleanCache = 0, 0, 0, 0, C
+frmMain = 44, 58, 665, 424, , 22, 29, 643, 395, C

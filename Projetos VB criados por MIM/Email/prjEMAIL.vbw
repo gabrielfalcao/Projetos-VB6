@@ -1,0 +1,5 @@
+cDrawImage = 44, 44, 338, 389, C
+CSocketMaster = 0, 0, 0, 0, C
+modSocketMaster = 0, 0, 0, 0, C
+Winsock = 0, 0, 0, 0, C, 66, 66, 482, 325, C
+frmImag = 44, 58, 634, 411, , 44, 44, 460, 303, C

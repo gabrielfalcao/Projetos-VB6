@@ -1,0 +1,236 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbkgde.gif=
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul1e.gif=
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul2e.gif=
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul3e.gif=
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barrulee.gif=
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\N£OWEBcópia.gif=
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\n£oweb.htm=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\N£OWEB.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbkgde.gif=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul1e.gif=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul2e.gif=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul3e.gif=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barrulee.gif=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\N£OWEBcópia.gif=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\n£oweb.htm=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\N£OWEB.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbkgde.gif=$(AppPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul1e.gif=$(AppPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul2e.gif=$(AppPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul3e.gif=$(AppPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barrulee.gif=$(AppPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\N£OWEBcópia.gif=$(AppPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\n£oweb.htm=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\N£OWEB.exe=No
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbkgde.gif=No
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul1e.gif=No
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul2e.gif=No
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barbul3e.gif=No
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\barrulee.gif=No
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\N£OWEBcópia.gif=No
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\n£oweb.htm=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=N£OWEB - Web Browser
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=N£OWEB - Web Browser
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|N£OWEB - Web Browser]
+Icon1=N£OWEB.exe
+Title1=N£OWEB - Web Browser
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Package
+ProjectFolder=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB
+ServerSideCab=
+File1=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Package\setup.exe
+File2=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Package\Setup.Lst
+File3=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Package\N£OWEB.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Package (2)
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\downloader\Gif89.dll=
+C:\WINDOWS\SYSTEM\Gif89.dll=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+
+[Package|Standard Setup Package 2|Files Added]
+d:\gabriel\meus arquivos\projetos do vb 6.0\n£oweb\btn_atualizar.gif=
+d:\gabriel\meus arquivos\projetos do vb 6.0\n£oweb\busy ani.gif=
+d:\gabriel\meus arquivos\projetos do vb 6.0\n£oweb\neoweb.swf=
+d:\gabriel\meus arquivos\projetos do vb 6.0\n£oweb\n£oweb.htm=
+
+[Package|Standard Setup Package 2|Files Removed]
+d:\gabriel\meus arquivos\projetos do vb 6.0\n£oweb\btn_atualizar.gif=
+
+[Package|Standard Setup Package 2|Files In Project]
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\N£OWEB.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\btn_atualizar.gif=No
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Busy ani.gif=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\NEOWEB.swf=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\n£oweb.htm=Yes
+C:\WINDOWS\SYSTEM\Gif89.dll=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\N£OWEB.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\downloader\Gif89.dll=$(WinSysPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Busy ani.gif=$(AppPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\NEOWEB.swf=$(AppPath)
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\n£oweb.htm=$(AppPath)
+C:\WINDOWS\SYSTEM\Gif89.dll=$(WinSysPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\N£OWEB.exe=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Busy ani.gif=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\NEOWEB.swf=Yes
+D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\n£oweb.htm=Yes
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=N£OWEB - Web Browser
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Package (2)
+ProjectFolder=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB
+ServerSideCab=
+File1=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Package (2)\setup.exe
+File2=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Package (2)\Setup.Lst
+File3=D:\Gabriel\Meus Arquivos\Projetos do VB 6.0\N£OWEB\Package (2)\N£OWEB.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=N£OWEB - Web Browser
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|N£OWEB - Web Browser]
+Icon1=N£OWEB.exe
+Title1=N£OWEB - Web Browser
+StartIn1=$(AppPath)
+Key1=Icon1

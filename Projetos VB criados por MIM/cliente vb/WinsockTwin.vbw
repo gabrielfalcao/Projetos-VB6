@@ -1,0 +1,4 @@
+Winsock = 0, 0, 0, 0, C, 66, 66, 450, 340, C
+CSocketMaster = 0, 0, 0, 0, C
+modSocketMaster = 0, 0, 0, 0, C
+Form1 = 44, 44, 428, 318, C, 88, 88, 472, 362, C

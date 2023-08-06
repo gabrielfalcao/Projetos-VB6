@@ -1,0 +1,102 @@
+[Root]
+Most Recent Package=Pacchetto di installazione standard 1
+
+
+[Package|Pacchetto di installazione standard 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\MIDI2WAV\Pacchetto
+
+[Package|Pacchetto di installazione standard 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Pacchetto di installazione standard 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Pacchetto di installazione standard 1|Files Found]
+
+[Package|Pacchetto di installazione standard 1|Files Released]
+
+[Package|Pacchetto di installazione standard 1|Missing Dependency Information]
+
+[Package|Pacchetto di installazione standard 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\Mscomctl.ocx=
+
+[Package|Pacchetto di installazione standard 1|Files Added]
+
+[Package|Pacchetto di installazione standard 1|Files Removed]
+
+[Package|Pacchetto di installazione standard 1|Files In Project]
+C:\MIDI2WAV\JR MID2WAV.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6IT.DLL=Yes
+C:\MIDI2WAV\lame_enc.dll=Yes
+C:\WINNT\system32\Comdlg32.ocx=Yes
+C:\WINNT\system32\CMDLGIT.DLL=Yes
+C:\WINNT\system32\Mscomctl.ocx=Yes
+C:\WINNT\system32\MSCMCIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Pacchetto di installazione standard 1|Configure Registry Files]
+Applicable=No
+
+[Package|Pacchetto di installazione standard 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Pacchetto di installazione standard 1|Install Locations]
+C:\MIDI2WAV\JR MID2WAV.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\MIDI2WAV\lame_enc.dll=$(AppPath)
+C:\WINNT\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\CMDLGIT.DLL=$(WinSysPath)
+C:\WINNT\system32\Mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCMCIT.DLL=$(WinSysPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Pacchetto di installazione standard 1|Configure Shared Files]
+Applicable=Yes
+C:\MIDI2WAV\JR MID2WAV.exe=No
+C:\MIDI2WAV\lame_enc.dll=No
+
+[Package|Pacchetto di installazione standard 1|Distribution]
+Type=single
+Size=
+Title=JR MID2WAV
+
+[Package|Pacchetto di installazione standard 1|IconGroups]
+Group0=JR MID2WAV
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Pacchetto di installazione standard 1|JR MID2WAV]
+Icon1="JR MID2WAV.exe"
+Title1=JR MID2WAV
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Pacchetto di installazione standard 1|Package]
+PackageFolder=C:\MIDI2WAV\Pacchetto
+ProjectFolder=C:\MIDI2WAV
+ServerSideCab=
+File1=C:\MIDI2WAV\Pacchetto\setup.exe
+File2=C:\MIDI2WAV\Pacchetto\Setup.Lst
+File3=C:\MIDI2WAV\Pacchetto\JR MID2WAV.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

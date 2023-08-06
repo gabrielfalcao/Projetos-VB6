@@ -1,0 +1,3 @@
+Este processo vai instalar o TeG Chat v1.00
+na pasta "C:\TeG Chat v1.00\"
+DESEJA CONTINUAR?

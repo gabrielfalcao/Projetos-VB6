@@ -1,0 +1,7 @@
+
+Fatal Error in Converter: 
+Error: Alias 'S7852703' is not found.
+Error Number: 13
+Method: writeresult
+Offending Code: SELECT ...
+File being processed: e:\gabriel\meus arquivos\projetos vb criados por mim\imager\slideshow\form1.frx

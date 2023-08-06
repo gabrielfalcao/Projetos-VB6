@@ -1,0 +1,189 @@
+[Root]
+Most Recent Package=Instalação do Assistente de Duelo
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Assistente_de_Duelo.exe=Yes
+C:\WINDOWS\SYSTEM32\Msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\setup1.exe=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Assistente_de_Duelo.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\setup1.exe=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Assistente_de_Duelo.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Assistente de Duelo 1.0
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Assistente de Duelo 1.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Assistente de Duelo 1.0]
+Icon1=Assistente_de_Duelo.exe
+Title1=Assistente de Duelo 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package
+ProjectFolder=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0
+ServerSideCab=
+File1=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package\setup.exe
+File2=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package\Setup.Lst
+File3=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package\Assistente_de_Duelo.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Instalação do Assistente de Duelo|Assistente de Duelo 1.2]
+Icon1=Assistente_de_Duelo.exe
+Title1=Assistente de Duelo 1.2
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Instalação do Assistente de Duelo|Assistente de Duelo 1.0]
+Icon1=Assistente_de_Duelo.exe
+Title1=Assistente de Duelo 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Instalação do Assistente de Duelo|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package
+
+[Package|Instalação do Assistente de Duelo|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Instalação do Assistente de Duelo|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Instalação do Assistente de Duelo|Files Found]
+
+[Package|Instalação do Assistente de Duelo|Files Released]
+
+[Package|Instalação do Assistente de Duelo|Missing Dependency Information]
+
+[Package|Instalação do Assistente de Duelo|Out-of-Date Dependency Information]
+
+[Package|Instalação do Assistente de Duelo|Files Added]
+
+[Package|Instalação do Assistente de Duelo|Files Removed]
+
+[Package|Instalação do Assistente de Duelo|Files In Project]
+E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Assistente_de_Duelo.exe=Yes
+C:\WINDOWS\SYSTEM32\Msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\setup1.exe=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Instalação do Assistente de Duelo|Configure Registry Files]
+Applicable=No
+
+[Package|Instalação do Assistente de Duelo|Configure Remote Servers]
+Applicable=No
+
+[Package|Instalação do Assistente de Duelo|Install Locations]
+E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Assistente_de_Duelo.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\setup1.exe=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Instalação do Assistente de Duelo|Configure Shared Files]
+Applicable=Yes
+E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Assistente_de_Duelo.exe=Yes
+
+[Package|Instalação do Assistente de Duelo|Distribution]
+Type=multi
+Size=720 KB
+Title=Assistente de Duelo 1.3
+
+[Package|Instalação do Assistente de Duelo|IconGroups]
+Group0=Assistente de Duelo 1.3
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Instalação do Assistente de Duelo|Assistente de Duelo 1.3]
+Icon1=Assistente_de_Duelo.exe
+Title1=Assistente de Duelo 1.3
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Instalação do Assistente de Duelo|Package]
+PackageFolder=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package
+ProjectFolder=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0
+ServerSideCab=
+File1=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package\setup.exe
+File2=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package\Setup.Lst
+File3=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package\Assist1.CAB
+File4=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package\Assist2.CAB
+File5=E:\Gabriel\Meus Arquivos\Projetos do VB 6.0\Assistente de Duelo 1.0\Package\Assist3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,296 @@
+   _ _ _
+  / / (_)
+ _\ \ \   Summary of the Seagate 32-bit Windows disc access driver--
+(_)_/_/   SEG32BIT.386
+
+Copyright (c) 1995-1998 by Seagate Technology, Inc.  All rights reserved.
+
+---------------------------------------------------------------------
+SEG32BIT.TXT: Publication 36328-501                   Rev. E: 3-25-98
+---------------------------------------------------------------------
+
+
+
+Introduction
+------------
+This text file answers common questions about the Seagate 32-bit
+Windows disc access driver. It contains the following sections:
+
+
+-Frequently-Asked Questions
+
+-Features of the SEG32BIT driver
+
+-SEG32BIT compatibility issues
+
+-Installing the SEG32BIT Driver
+
+-Obtaining updated drivers
+
+-License Agreement and Warranty Disclaimer
+
+
+======================================================================
+
+Frequently Asked Questions
+--------------------------
+
+     1. What is a Windows driver?
+        A Windows driver is a "translation program" that helps
+        Microsoft Windows and Windows-for-Workgroups communicate with
+        devices attached to your computer. Such devices may include
+        modems, CD-ROMs, video cards, and hard drives.
+
+     2. What is the Windows 32-bit disk access driver?
+        This is a driver that allows Windows to communicate with your
+        hard disc directly (in protected mode) rather than going
+        through DOS or through your system BIOS. This means that your
+        CPU remains in 32-bit mode (if it supports this mode) rather
+        than slowing to 16-bit mode.
+
+        The 32-bit drive access driver that Microsoft created for
+        Windows 3.1 and Windows for Workgroups 3.11 is named *WDCTRL.
+        Unfortunately, this driver does not work with hard drives
+        larger than 528 Mbytes.
+
+     3. What is SEG32BIT.386?
+        SEG32BIT is Seagate's version of a Windows driver that
+        replaces the generic driver, *WDCTRL. It is designed
+        specifically to work with ATA (IDE) drives larger than 528
+        Mbytes up to 8.4GB. It also configures your computer to take
+        advantage of any high-speed or LBA data transfer modes
+        supported by your computer and your hard drive(s).
+
+     4. Why should I use SEG32BIT.386?
+        The Microsoft 32-bit disc access driver does not work with ATA
+        (IDE) hard drives larger than 528 Mbytes. The Seagate driver
+        does. SEG32BIT also supports advanced disc access features
+        that may significantly improve the performance of your drive.
+        These features are not supported by the Microsoft 32-bit
+        driver.
+
+        Note. If your computer and drive host adapter do not support
+              32-bit addressing or advanced data transfer modes, you
+              do not need to use this driver.
+
+     5. Does SEG32BIT work with any hard drive?
+        As long as your computer contains at least one Seagate ATA
+        (IDE) hard drive, SEG32BIT can be used for 32-bit disc access
+        with any ATA (IDE) hard drive attached to that computer.
+
+     6. How much will my disc performance improve if I use SEG32BIT?
+        Once installed, SEG32BIT optimizes the data transfers to and
+        from your drive, if your system and drive support high-speed
+        data access features. The increase in performance will vary
+        depending on many factors, including the system architecture,
+        bus speed, interface chip manufacturer and version level.
+
+======================================================================
+
+Features of the SEG32BIT driver
+-------------------------------
+     *  Supports 32-bit drive access - Speeds up data access by
+        allowing the computer to choose the most efficient disc access
+        method.
+
+     *  Supports drives larger than 528 Mbytes up to 8.4GB.
+
+     *  Supports Read/Write Multiple - Speeds up data access by
+        allowing the drive and computer to send more than one sector
+        of data for each system interrupt. This feature is drive-
+        dependent and will be automatically detected by the driver if
+        it is available. It is only supported by computers with '386
+        and later CPU chips.
+
+     *  Supports PIO Modes 3 and 4 - Speeds up data transfers by
+        minimizing the amount of time between blocks of data
+        transferred to or from the drive.
+
+        Note. PIO Modes 3 and 4 can only be implemented if they are
+              supported by the drives, the drive controller, and the
+              host computer. In addition, the host computer must have
+              a PCI bus or VL (Local bus) architecture.
+
+     *  When Windows or Windows for Workgroups is loaded, SEG32BIT
+        automatically determines which features can be implemented.
+        SEG32BIT lists those features on the screen when Windows is
+        booted up.
+
+======================================================================
+
+SEG32BIT compatibility issues
+-----------------------------
+     1. Compatible system software:
+        Microsoft Windows version 3.1
+        Microsoft Windows for Workgroups version 3.11
+
+     2. Compatible bus types:
+        ISA, EISA, VL and PCI bus architectures.
+
+     3. Compatible hard drives:
+        SEG32BIT is compatible with most ATA (IDE) hard drives, but
+        can only be installed if a Seagate drive has been attached to
+        and recognized by the host computer.
+
+     4. Possible driver conflicts:
+        CD-ROM Drives - You cannot attach a CD-ROM drive to the same
+        ATA cable as your hard drive if you are using the SEG32BIT
+        driver and have the 32 bit drive access option enabled (The
+        CD-ROM is usable if the 32 bit drive access option is
+        disabled).
+
+     5. Third-party disc access Drivers:
+        Disk-access drivers provided by some vendors of ATA Host
+        Adapters cannot be used in conjunction with SEG32BIT. These
+        drivers may conflict with or disable SEG32BIT, resulting in
+        lower system performance. Only one 32-bit disc-access driver
+        may be run within a Windows session.
+
+     6. Drive Controller Interface Chips Supported:
+        ADI/2 & 3  - VESA bus
+        CMD 640B - PCI & VESA buses
+        DTC 803 - VESA bus
+
+     7. I/O Port supported:
+        The SEG32BIT driver only supports hard drives attached to the
+        primary port address (1F0 hex)
+
+======================================================================
+
+Installing the SEG32BIT Driver
+------------------------------
+      SEG32BIT may be installed using three possible methods:
+
+      - using DiscWizard v2.4 or Disk Manager v9.44s+ select  Advanced 
+        option menu then Maintenance
+      - using STSETUP.EXE (see below)
+      - manually by editing the Windows 3.1x SYSTEM.INI file (see
+        below)
+
+   If the file STSETUP.EXE exists on the floppy or in the download file,
+   use it for a quick and easy installation.
+
+   Install the SEG32BIT.386 driver as follows:
+
+      1. Start Windows.
+
+      2. From the Program Manager menu, select File.
+
+      3. Select Run.
+
+      4. Insert the Seagate software diskette into the diskette
+         drive (assumed to be drive A).
+
+      5. In the command line box, type  a:\stsetup.
+
+      6. Read the license agreement that appears on the screen. If you
+         agree to the terms, select ACCEPT AGREEMENT to continue.
+
+      7. The next screen lists the features the SEG32BIT.386 driver
+         supports. If your computer supports these features,
+         SEG32BIT.386 will enable them in 32-bit disc access mode for
+         all drives that support them. Select Install Driver to
+         continue.
+
+      8. After the driver is installed, the program automatically
+         re-enables 32-bit disc access in the Windows control panel.
+         Alternatively, you can do this manually, after exiting the
+         stsetup program.
+
+   To manually install the SEG32BIT 32-bit disk access file:
+
+      1. Open the SYSTEM.INI file with a standard text editor such as
+         NotePad or DOS Edit.
+
+      2. Go to the section [386Enh] and place a semicolon (;) in front
+         of the line "device=*wdctrl" which is Windows' default 32-bit
+         disk access driver.
+
+      3. Add a new line below (without quotes) the original driver as
+         "device=seg32bit.386; Seagate 32 bit disk access driver"
+
+      4. Save the file and restart Windows.  Windows will only allow
+         one disk access driver to be installed.  A startup error
+         message will be displayed if there is another third party
+         driver installed.  Other third drivers may include the
+         following: mh32bit.386, wdcdrv.386, pti13.386, ptictrl.386,
+         eide2300.386, cpqint13.386, cpqwtl.386, flexidrv.386,
+         optivic.386, wdctrl32.386, cmdint13.386, cmd640x.386.,
+         adi2w102.386, wineide.386, shdrv.386, ide_win.386, sgat.386,
+         ontrackw.386.  If any of these drivers are present, contact
+         their respective vendors for additional instructions that may
+         be pertinent to your system configuration.
+
+     5.  Start the Windows Control Panel and select the 386 Enhanced
+         icon.
+
+     6.  Select Virual Memory and then Change>>.
+
+     7.  Check the selection box at the bottom of the panel "Use 32 Bit
+         Disk Access"
+
+     8.  Restart Windows by following the system message instructions.
+
+======================================================================
+
+Obtaining updated drivers
+-------------------------
+      The latest version of the SEG32BIT driver has been shipped on
+      your drive. If this software is updated, the updated version
+      will be posted at the following sources:
+
+      *  SeaBOARD-The Seagate electronic bulletin board systems
+
+        United States          405-936-1600
+        England                44-1628-478011
+        France                 33 1-48 25 35 95
+        Germany                49-89-140-9331
+        Singapore              65-292-6973
+        Thailand               662-531-8111
+        Australia              61-2-9756-2359
+        Taiwan                 886-2-719-6075
+
+      *  The Seagate www or ftp servers (on the internet):
+         http://www.seagate.com or ftp://ftp.seagate.com
+
+
+======================================================================
+
+License Agreement and Warranty Disclaimer
+-----------------------------------------
+
+Seagate reserves the right to change, without notice, product
+offerings or specifications.
+
+This is a legal agreement between you the purchaser and Seagate
+Technology, Inc.  By accessing Seagate Technology SEG32BIT.386 driver
+(the "Software"), you agree to be bound by the terms of this
+agreement.  If you do not agree, do not access the software.
+
+Seagate provides the accompanying object code of the Software and
+nonexclusively licenses its use to you on the following terms and
+conditions.  The Software is Seagate's proprietary, copyrighted
+product.  Seagate grants you a limited access to use one copy of the
+Software.  You may not copy, distribute the Software for resale.  You
+may not reverse engineer, modify, rent, or lease the Software.  In
+addition, you may not disclose the information or data incorporated in
+the Software to others, in any format.
+
+You accept the Software "as is" without any warranty whatsoever.
+Seagate does not warrant that the Software will meet your
+requirements; that the Software is fit for any particular purpose or
+that the use of the Software will be error free.
+
+SEAGATE EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER ORAL OR WRITTEN,
+EXPRESSED OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF
+MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.  IN NO EVENT
+WILL SEAGATE BE LIABLE TO YOU, YOUR CUSTOMERS OR OTHER USERS IN ANY
+WAY BASED ON USE OF THE SOFTWARE, INCLUDING WITHOUT LIMITATION FOR ANY
+LOSS OF PROFITS, LOSS OF DATA OR USE OF THE SOFTWARE OR INDIRECT,
+INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR EXEMPLARY DAMAGES ARISING OUT
+OF OR IN CONNECTION WITH THE USE OR INABILITY TO USE THE SOFTWARE.
+
+End of License Agreement.
+
+
+-=EOF: SEG32BIT.TXT=-

@@ -1,0 +1,201 @@
+[Root]
+Most Recent Package=HIR}T
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\New Folder (2)
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\emu8086v204\cmax20.ocx=
+C:\WINDOWS\system32\ws2_32.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Documents and Settings\Administrador\Desktop\Hit.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\ws2_32.dll=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\emu8086v204\cmax20.ocx=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\Administrador\Desktop\Hit.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\ws2_32.dll=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\emu8086v204\cmax20.ocx=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrador\Desktop\Hit.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=H1T - H4ck3r & 1nt3rn3t T00lz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=H1T - H4ck3r & 1nt3rn3t T00lz
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|H1T - H4ck3r & 1nt3rn3t T00lz]
+Icon1=Hit.exe
+Title1=H1T - H4ck3r & 1nt3rn3t T00lz
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\New Folder (2)
+ProjectFolder=E:\Gabriel\Meus Arquivos\Projetos VB criados por MIM\HIT
+ServerSideCab=
+File1=c:\New Folder (2)\setup.exe
+File2=c:\New Folder (2)\Setup.Lst
+File3=c:\New Folder (2)\Hit.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|HIR}T|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\H1T Setup
+
+[Package|HIR}T|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HIR}T|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HIR}T|Files Found]
+
+[Package|HIR}T|Files Released]
+
+[Package|HIR}T|Missing Dependency Information]
+C:\emu8086v204\cmax20.ocx=
+C:\WINDOWS\system32\ws2_32.dll=
+
+[Package|HIR}T|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|HIR}T|Files Added]
+
+[Package|HIR}T|Files Removed]
+
+[Package|HIR}T|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\ws2_32.dll=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\cmax20.ocx=Yes
+C:\Documents and Settings\Administrador\Desktop\Hit.exe=Yes
+
+[Package|HIR}T|Configure Registry Files]
+Applicable=No
+
+[Package|HIR}T|Configure Remote Servers]
+Applicable=No
+
+[Package|HIR}T|Install Locations]
+C:\Documents and Settings\Administrador\Desktop\Hit.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\ws2_32.dll=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\emu8086v204\cmax20.ocx=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\cmax20.ocx=$(WinSysPath)
+C:\Hit.exe=$(AppPath)
+
+[Package|HIR}T|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrador\Desktop\Hit.exe=No
+C:\Hit.exe=Yes
+
+[Package|HIR}T|Distribution]
+Type=single
+Size=
+Title=H1T - H4ck3r & 1nt3rn3t T00lz BETA
+
+[Package|HIR}T|Package]
+PackageFolder=c:\H1T Setup
+ProjectFolder=E:\Gabriel\Meus Arquivos\Projetos VB criados por MIM\HIT
+ServerSideCab=
+File1=c:\H1T Setup\setup.exe
+File2=c:\H1T Setup\Setup.Lst
+File3=c:\H1T Setup\Hit.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|HIR}T|IconGroups]
+Group0=H1T - H4ck3r & 1nt3rn3t T00lz
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|HIR}T|H1T - H4ck3r & 1nt3rn3t T00lz]
+Icon1=Hit.exe
+Title1=H1T - H4ck3r & 1nt3rn3t T00lz
+StartIn1=$(AppPath)
+Key1=Icon1

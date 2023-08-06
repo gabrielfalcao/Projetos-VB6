@@ -1,0 +1,7 @@
+frmMain = 44, 58, 665, 424, , 22, 29, 643, 395, C
+modShellExec = 66, 87, 687, 453, C
+modUUFind = 88, 116, 709, 482, C
+UUFindList = 0, 0, 621, 366, C
+UUFind = 110, 145, 731, 511, C
+UUFindItem = 132, 174, 753, 540, C
+Module1 = 22, 29, 643, 395, C

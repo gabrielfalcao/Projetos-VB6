@@ -1,0 +1,86 @@
+Private Sub TextBox1_Change()
+
+End Sub
+
+Private Sub Slider1_Change()
+ProgressBar1.Value = Slider1.Value
+End Sub
+
+Private Sub chameleonButton1_Click()
+Unload Me
+End Sub
+
+Private Sub chameleonButton2_Click()
+mnuCopiar_Click
+End Sub
+
+Private Sub chameleonButton3_Click()
+mnuColar_Click
+End Sub
+
+Private Sub chameleonButton4_Click()
+Form2.Show
+End Sub
+
+Private Sub mnuAbrir_Click()
+cd2.ShowOpen
+carregador.LoadFile cd2.FileName
+Text1.Text = Empty
+Text1.Text = carregador.Text
+End Sub
+
+Private Sub mnuColar_Click()
+Text1.Text = Text1.Text & Clipboard.GetText
+End Sub
+
+Private Sub mnuCopiar_Click()
+Clipboard.SetText (Text1.SelText)
+End Sub
+
+Private Sub mnuImprimir_Click()
+ 
+    Printer.Font.Name = "Arial"
+    Printer.Font.Size = 8
+    Printer.Font.Bold = False
+    Printer.Print Text1.Text & vbCrLf & vbCrLf & "Documento criado com Mr. Basic TXT" & vbCrLf & "Programador: Gabriel Falcão"
+    Printer.EndDoc
+End Sub
+
+Private Sub mnuNovo_Click()
+Text1.Text = Empty
+End Sub
+
+Private Sub mnuSalvar_Click()
+On Error GoTo err
+cd.ShowSave
+   Open cd.FileName For Output As #1
+    Print #1, Text1.Text
+    Close #1
+err:
+If err.Number <> 0 Then
+MsgBox "Não foi possível salvar", vbExclamation, Me.Caption
+Exit Sub
+ElseIf err.Number = 76 Then
+Exit Sub
+End If
+End Sub
+
+Private Sub Toolbar2_ButtonClick(ByVal Button As MSComctlLib.Button)
+On Error GoTo err
+Select Case Button
+Case Is = "Novo"
+mnuNovo_Click
+Case Is = "Salvar"
+mnuSalvar_Click
+Case Is = "Abrir"
+  mnuAbrir_Click
+    Case Is = "Imprimir"
+   mnuImprimir_Click
+    Case Else
+    End Select
+err:
+If err.Number <> 0 Then
+Exit Sub
+End If
+End Sub
+

@@ -1,0 +1,4 @@
+frmAbout = 0, 0, 375, 346, C, 154, 154, 529, 500, C
+frmMain = 44, 44, 600, 384, C, 22, 22, 578, 362, C
+CCaptionlessWindowMover = 88, 88, 644, 428, 
+frmMenu = 0, 0, 0, 0, C, 0, 0, 0, 0, C

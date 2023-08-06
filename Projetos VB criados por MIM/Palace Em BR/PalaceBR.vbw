@@ -1,0 +1,8 @@
+frmMain = 44, 44, 624, 417, C, 22, 22, 602, 395, C
+modShellExec = 66, 66, 646, 439, C
+modUUFind = 44, 44, 624, 417, C
+UUFind = 0, 0, 0, 0, C
+UUFindItem = 0, 0, 0, 0, C
+UUFindList = 0, 0, 0, 0, C
+CBMPRegion = 0, 0, 0, 0, C
+CCaptionlessWindowMover = 0, 0, 0, 0, C

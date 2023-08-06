@@ -1,0 +1,11 @@
+mod1 = 44, 44, 283, 314, C
+recaller = 110, 110, 458, 456, C
+General = 0, 0, 602, 272, C
+frmInvasor = 0, 0, 367, 202, Z, 156, 52, 712, 392, C
+frmInit = 110, 110, 690, 480, , 110, 110, 690, 480, C
+netConect = 367, 0, 734, 202, C
+FileExists = 367, 202, 734, 404, C
+Internet = 66, 66, 643, 439, 
+CSocketMaster = 0, 0, 0, 0, C
+modSocketMaster = 0, 0, 0, 0, C
+Winsock = 0, 0, 0, 0, C, 0, 0, 416, 259, C

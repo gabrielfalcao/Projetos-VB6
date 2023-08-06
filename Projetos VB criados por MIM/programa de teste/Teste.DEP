@@ -1,0 +1,16 @@
+[Version]
+Version=1.0.0.0
+
+[Teste.exe <0009>]
+Dest=$(AppPath)
+Date=18/12/2001
+Time=11:43
+Version=1.0.0.0
+CABFilename=Teste.CAB
+CABINFFile=Teste.INF
+Uses1=MSVBVM60.DLL
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL

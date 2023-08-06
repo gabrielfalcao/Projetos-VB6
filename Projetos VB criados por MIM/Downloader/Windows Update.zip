@@ -1,0 +1,11 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>400 Bad Request</TITLE>
+</HEAD><BODY>
+<H1>Bad Request</H1>
+Your browser sent a request that this server could not understand.<P>
+The request line contained invalid characters following the protocol string.<P>
+<P>
+<HR>
+<ADDRESS>Apache/1.3.27 Server at membros.hpg.com.br Port 80</ADDRESS>
+</BODY></HTML>

@@ -1,0 +1,6 @@
+"Nome";"Caminho";"Total"
+"<PADRAO>";"Skins\Defaut.tsf";"5"
+"Black Gold";"Skins\Black Gold.tsf";"5"
+"WBY";"Skins\WBY.tsf";"5"
+"Black";"Skins\Black.tsf";"5"
+"Blue Gold";"Skins\Blue Gold.tsf";"5"

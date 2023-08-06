@@ -1,0 +1,1 @@
+Este processo instala o SiCon BSC e roda seu respectivo configurador, deseja continuar?
